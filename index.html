@@ -115,20 +115,51 @@ class="profile">
 </section>
     
 <section class="card">
-    <h2>🌐 Guild Links</h2>
+  <style>
+    .card {
+      background: #121214;
+      border: 1px solid #2a2a2e;
+      border-radius: 24px;
+      padding: 24px;
+      max-width: 320px;
+      font-family: sans-serif;
+      color: white;
+      text-align: center;
+    }
+    .card h2 {
+      margin-bottom: 16px;
+    }
+    .guild-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      padding: 12px 20px;
+      margin: 10px 0;
+      border-radius: 999px; /* ITO YUNG OVAL SHAPE */
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+    .facebook {
+      background: #1877F2;
+    }
+    .github {
+      background: #24292e;
+    }
+    .guild-link:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.1);
+    }
+  </style>
 
-    <a href="https://www.facebook.com/share/14xn8TjQeTA/">
-        Facebook
-    </a>
-
-    <a href="https://github.com/Jaysohumble">
-        GitHub
-    </a>
+  <h2>🌐 Guild Links</h2>
+  <a class="guild-link facebook" href="https://www.facebook.com/share/14xn8TjQeTA/" target="_blank">
+    Facebook
+  </a>
+  <a class="guild-link github" href="https://github.com/Jaysohumble" target="_blank">
+    GitHub
+  </a>
 </section>
-
-<footer>
-    ⭐ Designed by Gaudioso II C. Rosauro ⭐
-</footer>
-
-</body>
-</html>
