@@ -76,3 +76,25 @@ footer{
     text-align:center;
     padding:25px;
 }
+
+.profile{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius:50%;
+
+    border:5px solid #7c3aed;
+
+    box-shadow:
+    0 0 20px #7c3aed,
+    0 0 40px #7c3aed,
+    0 0 60px #7c3aed;
+
+    transition:0.5s;
+
+    margin-bottom:20px;
+}
+
+.profile:hover{
+    transform:scale(1.1) rotate(5deg);
+}
