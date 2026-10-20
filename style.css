@@ -1,0 +1,78 @@
+body{
+    background:#121212;
+    color:white;
+    font-family:Segoe UI;
+    margin:0;
+}
+
+header{
+    text-align:center;
+    padding:60px;
+    background:linear-gradient(
+    90deg,
+    #ff6600,
+    #ff0000
+    );
+}
+
+.card{
+    background:#1e1e1e;
+    margin:20px;
+    padding:20px;
+    border-radius:20px;
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:scale(1.03);
+    box-shadow:0 0 20px orange;
+}
+
+h2{
+    color:orange;
+}
+
+.skill{
+    background:orange;
+    color:black;
+    display:inline-block;
+    padding:10px 15px;
+    margin:5px;
+    border-radius:20px;
+}
+
+.skill:hover{
+    background:red;
+    color:white;
+}
+
+.project{
+    background:#333;
+    padding:15px;
+    margin-top:10px;
+    border-radius:10px;
+}
+
+.project:hover{
+    background:orange;
+    color:black;
+}
+
+.btn{
+    display:inline-block;
+    margin:10px;
+    text-decoration:none;
+    color:white;
+    padding:10px 20px;
+    background:red;
+    border-radius:20px;
+}
+
+.btn:hover{
+    background:orange;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+}
