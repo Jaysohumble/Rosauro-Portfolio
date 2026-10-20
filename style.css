@@ -78,10 +78,13 @@ footer{
 }
 
 .profile{
-    width:200px;
-    height:200px;
+    width:100px;
+    height:100px;
+    border-radius:12px;
     object-fit:cover;
-    border-radius:50%;
+    border:2px solid #7c3aed;
+}
+
 
     border:5px solid #7c3aed;
 
